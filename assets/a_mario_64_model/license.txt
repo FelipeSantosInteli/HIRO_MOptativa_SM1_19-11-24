@@ -1,0 +1,11 @@
+Model Information:
+* title:	a Mario 64 model
+* source:	https://sketchfab.com/3d-models/a-mario-64-model-20ea1e57597241cbb8a5b0d744bd8a71
+* author:	sbrear (https://sketchfab.com/sbrear)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "a Mario 64 model" (https://sketchfab.com/3d-models/a-mario-64-model-20ea1e57597241cbb8a5b0d744bd8a71) by sbrear (https://sketchfab.com/sbrear) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

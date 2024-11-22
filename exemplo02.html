@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- A-Frame itself -->
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+
+    <!-- Pure three.js code that the A-Frame components use for location-based AR -->
+    <script type='text/javascript' src='https://raw.githack.com/AR-js-org/AR.js/3.4.5/three.js/build/ar-threex-location-only.js'></script>
+
+    <!-- AR.js A-Frame components -->
+    <script type='text/javascript' src='https://raw.githack.com/AR-js-org/AR.js/3.4.5/aframe/build/aframe-ar.js'></script>
+
+    <title>Primeiro AR</title>
+</head>
+<body style="margin:0px; overflow:hidden;">
+    <a-scene vr-mode-ui="enabled: false" arjs="debugUIEnabled:false">
+        <a-assets>
+            <img id="hiro" src="./assets/025.png">
+        </a-assets>
+
+        <a-marker present="hiro">
+            <a-image width="1" height="1" rotation="-90 0 0" position="0 0 0" src="#hiro"></a-image>
+        </a-marker>
+
+        <a-entity camera="">
+
+        </a-entity>
+    </a-scene>
+</body>
+</html>
