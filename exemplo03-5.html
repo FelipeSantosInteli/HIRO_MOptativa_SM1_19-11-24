@@ -13,16 +13,12 @@ html
 </head>
 <body style="margin:0px; overflow: hidden;">
     <a-scene vr-mode-ui="enabled: false" arjs="debugUIEnabled:false">
-
         <a-assets>
-            
-            <video id="kuka" src="./assets/Rick Astley - Never Gonna Give You Up.mp4" autoplay loop></video>
-            
+            <video id="rick_rolled" src="./assets/Rick Astley - Never Gonna Give You Up.mp4" autoplay loop></video>
         </a-assets>
 
-        <a-marker present="hiro" controlador>
-            <a-video width="1" height="1" rotation="-90 0 0" position="0 0 0" src="#kuka"></a-video>
-            
+        <a-marker present="rick_rolled" controlador>
+            <a-video width="1" height="1" rotation="-90 0 0" position="0 0 0" src="#rick_rolled"></a-video>
         </a-marker>
 
         <a-entity camera="">
@@ -36,7 +32,7 @@ html
             'controlador', {
                 init: function(){
                     this.toggle = false;
-                    this.vid=document.querySelector("#kuka");
+                    this.vid=document.querySelector("#rick_rolled");
                     this.vid.pause();
                 },
                 tick: function(){
@@ -53,6 +49,6 @@ html
             }
         );
        
-      </script>
+    </script>
 </body>
 </html>
